@@ -6,9 +6,16 @@ import NavBar from "./components/NavBar";
 function App() {
   return (
     <>
-      <NavBar />
-      <MainPage />
-      {/* <Footer /> */}
+     <div>
+        <Navbar />
+        <Home />
+        <About />
+        <PortFolio />
+        <Experiance />
+        <Contact />
+        <Footer />
+      </div>
+      <Toaster />
     </>
   );
 }
