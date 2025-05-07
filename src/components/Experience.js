@@ -1,12 +1,12 @@
 import React from "react";
-import html from "../../public/html.png";
-import css from "../../public/css.jpg";
-import java from "../../public/java.png";
-import javascript from "../../public/javascript.png";
-import oracle from "../../public/oracle.png";
-import spring from "../../public/spring.png";
-import springBoot from "../../public/springBoot.jpg";
-function Experiance() {
+import html from "../assets/html.png";
+import css from "../assets/css.jpg";
+import java from "../assets/java.png";
+import javascript from "../assets/javascript.png";
+import oracle from "../assets/oracle.png";
+import spring from "../assets/spring.png";
+import springBoot from "../assets/springBoot.jpg";
+function Experience() {
   const cardItem = [
     {
       id: 1,
@@ -46,13 +46,13 @@ function Experiance() {
   ];
   return (
     <div
-      name="Experiance"
+      name="Experience"
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16"
     >
       <div>
-        <h1 className="text-3xl font-bold mb-5">Experiance</h1>
+        <h1 className="text-3xl font-bold mb-5">Experience</h1>
         <p className="  ">
-          I've more than 2 years of experiance in below technologies.
+          I've more than 2 years of experience in below technologies.
         </p>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-7 my-3">
           {cardItem.map(({ id, logo, name }) => (
@@ -72,4 +72,4 @@ function Experiance() {
   );
 }
 
-export default Experiance;
+export default Experience;

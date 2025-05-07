@@ -1,10 +1,10 @@
 import React from "react";
-import java from "../../public/java.png";
-import python from "../../public/python.webp";
-import mongoDB from "../../public/mongodb.jpg";
-import express from "../../public/express.png";
-import reactjs from "../../public/reactjs.png";
-import nodejs from "../../public/node.png";
+import java from "../assets/java.png";
+import python from "../assets/python.webp";
+import mongoDB from "../assets/mongodb.jpg";
+import express from "../assets/express.png";
+import reactjs from "../assets/reactjs.png";
+import nodejs from "../assets/node.png";
 function PortFolio() {
   const cardItem = [
     {

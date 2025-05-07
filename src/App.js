@@ -1,8 +1,13 @@
-// import logo from './logo.svg';
-// import './App.css';
-// import Footer from "./components/Footer";
-import MainPage from "./components/MainPage";
-import NavBar from "./components/NavBar";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import About from "./components/About";
+import PortFolio from "./components/PortFolio";
+import Experience from "./components/Experience";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import { Toaster } from "react-hot-toast";
+
+
 function App() {
   return (
     <>
@@ -11,7 +16,7 @@ function App() {
         <Home />
         <About />
         <PortFolio />
-        <Experiance />
+        <Experience />
         <Contact />
         <Footer />
       </div>
