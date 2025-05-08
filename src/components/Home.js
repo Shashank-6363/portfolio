@@ -5,7 +5,6 @@ import pic from "../assets/shekhar.avif";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { IoLogoGithub, IoLogoYoutube } from "react-icons/io";
-import { FaTelegram } from "react-icons/fa6";
 
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
@@ -50,22 +49,22 @@ function Home() {
                 <h1 className="font-bold text-center ">Available on</h1>
                 <ul className="flex space-x-5">
                   <li>
-                    <a href="https://www.facebook.com/profile.php?id=100006997960060" target="_blank">
+                    <a href="https://www.facebook.com/profile.php?id=100006997960060" target="_blank" rel="noreferrer">
                       <FaSquareFacebook className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/in/shashank-shekhar-singh-2b9076224/" target="_blank">
+                    <a href="https://www.linkedin.com/in/shashank-shekhar-singh-2b9076224/" target="_blank" rel="noreferrer">
                       <FaLinkedin className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://github.com/Shashank-6363" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/Shashank-6363" target="_blank" rel="noreferrer">
                       <IoLogoGithub className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.youtube.com/@shekhar260" target="_blank">
+                    <a href="https://www.youtube.com/@shekhar260" target="_blank" rel="noreferrer">
                       <IoLogoYoutube className="text-2xl cursor-pointer" />
                     </a>
                   </li>
