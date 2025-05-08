@@ -1,10 +1,10 @@
 import React from "react";
 
-import pic from "../assets/photo.avif";
+import pic from "../assets/shekhar.avif";
 
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-import { IoLogoYoutube } from "react-icons/io";
+import { IoLogoGithub, IoLogoYoutube } from "react-icons/io";
 import { FaTelegram } from "react-icons/fa6";
 
 import { SiMongodb } from "react-icons/si";
@@ -37,11 +37,11 @@ function Home() {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Quisquam, recusandae consequatur. Accusamus sint libero eligendi
-              laborum fuga repudiandae? Asperiores tempore eos animi dolores
-              corrupti! Sint quos, mollitia architecto aliquam nesciunt, optio
-              cum delectus sit voluptatum aut ratione quaerat veniam aperiam!
+              Enthusiastic and skilled React.js Developer with 2 years of experience building dynamic, scalable, and responsive
+              web applications using React.js, JavaScript, HTML, CSS, and Node.js. Strong foundation in frontend architecture,
+              API integration, and performance optimisation.
+              Additionally, 6 months of hands-on experience in manual and automation testing on Android and Web
+              applications. Proficient in delivering clean, efficient code focusing on user experience, quality, and collaboration.
             </p>
             <br />
             {/* social media icons */}
@@ -50,25 +50,31 @@ function Home() {
                 <h1 className="font-bold text-center ">Available on</h1>
                 <ul className="flex space-x-5">
                   <li>
-                    <a href="https://www.facebook.com/" target="_blank">
+                    <a href="https://www.facebook.com/profile.php?id=100006997960060" target="_blank">
                       <FaSquareFacebook className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
+                    <a href="https://www.linkedin.com/in/shashank-shekhar-singh-2b9076224/" target="_blank">
                       <FaLinkedin className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.youtube.com/" target="_blank">
-                      <IoLogoYoutube className="text-2xl cursor-pointer" />
+                    <a href="https://github.com/Shashank-6363" target="_blank" rel="noopener noreferrer">
+                      <IoLogoGithub className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
+                    <a href="https://www.youtube.com/@shekhar260" target="_blank">
+                      <IoLogoYoutube className="text-2xl cursor-pointer" />
+                    </a>
+                  </li>
+                 
+                  {/* <li>
                     <a href="https://t.me/" target="_blank">
                       <FaTelegram className="text-2xl cursor-pointer" />
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
               <div className=" space-y-2">
