@@ -3,7 +3,7 @@ import pic from "../assets/shekhu.avif";
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoCloseSharp } from "react-icons/io5";
 import { Link } from "react-scroll";
-function Navbar() {
+function NavBar() {
   const [menu, setMenu] = useState(false);
   const navItems = [
     {
@@ -92,4 +92,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default NavBar;

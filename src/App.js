@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar";
+import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import About from "./components/About";
 import PortFolio from "./components/PortFolio";
@@ -12,7 +12,7 @@ function App() {
   return (
     <>
      <div>
-        <Navbar />
+        <NavBar />
         <Home />
         <About />
         <PortFolio />
